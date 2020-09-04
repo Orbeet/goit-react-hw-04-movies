@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f6ff;
+  font-family: Roboto, Arial, sans-serif;
+  color: #212121;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: rgb(163, 191, 252);
+  color: #fff;
+}
+button:hover {
+  background-color: rgb(122, 164, 228);
+}
+button:focus {
+  background-color: rgb(42, 131, 247);
+  outline: none;
+}
+input {
+  padding: 5px;
+}

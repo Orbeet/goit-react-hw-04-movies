@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+
+  &_item {
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .list_link {
+    color: #ffffff;
+  }
+
+  .list_activeLink {
+    color: #92255b;
+    text-decoration: underline;
+  }
+}

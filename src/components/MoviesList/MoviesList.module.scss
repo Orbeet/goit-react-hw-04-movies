@@ -1,0 +1,30 @@
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &_item {
+    width: 210px;
+    padding: 5px;
+    text-align: center;
+  }
+  &_link {
+    color: #3566b1;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 10px;
+
+    &:hover {
+      background-color: #3566b1;
+      color: #fff;
+    }
+
+    &::before {
+      display: inline-block;
+      content: "\21E8";
+    }
+  }
+
+  &_activeLink {
+  }
+}

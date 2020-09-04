@@ -1,0 +1,19 @@
+.subNavList {
+  display: flex;
+
+  &_item {
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &_link {
+    color: #333232;
+  }
+
+  &_activeLink {
+    color: #92255b;
+    text-decoration: underline;
+  }
+}

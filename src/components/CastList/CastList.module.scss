@@ -1,0 +1,13 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &_item {
+    width: 210px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 4px 4px 15px 0px rgb(162, 161, 167);
+    margin-bottom: 5px;
+  }
+}
